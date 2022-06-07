@@ -1,0 +1,12 @@
+C:\Codes\AngularApps\nglatestreview\src\ngvs2022reviews.data\obj\Debug\net6.0\ngvs2022reviews.data.csproj.AssemblyReference.cache
+C:\Codes\AngularApps\nglatestreview\src\ngvs2022reviews.data\obj\Debug\net6.0\ngvs2022reviews.data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Codes\AngularApps\nglatestreview\src\ngvs2022reviews.data\obj\Debug\net6.0\ngvs2022reviews.data.AssemblyInfoInputs.cache
+C:\Codes\AngularApps\nglatestreview\src\ngvs2022reviews.data\obj\Debug\net6.0\ngvs2022reviews.data.AssemblyInfo.cs
+C:\Codes\AngularApps\nglatestreview\src\ngvs2022reviews.data\obj\Debug\net6.0\ngvs2022reviews.data.csproj.CoreCompileInputs.cache
+C:\Codes\AngularApps\nglatestreview\src\ngvs2022reviews.data\bin\Debug\net6.0\ngvs2022reviews.data.deps.json
+C:\Codes\AngularApps\nglatestreview\src\ngvs2022reviews.data\bin\Debug\net6.0\ngvs2022reviews.data.dll
+C:\Codes\AngularApps\nglatestreview\src\ngvs2022reviews.data\bin\Debug\net6.0\ngvs2022reviews.data.pdb
+C:\Codes\AngularApps\nglatestreview\src\ngvs2022reviews.data\obj\Debug\net6.0\ngvs2022reviews.data.dll
+C:\Codes\AngularApps\nglatestreview\src\ngvs2022reviews.data\obj\Debug\net6.0\refint\ngvs2022reviews.data.dll
+C:\Codes\AngularApps\nglatestreview\src\ngvs2022reviews.data\obj\Debug\net6.0\ngvs2022reviews.data.pdb
+C:\Codes\AngularApps\nglatestreview\src\ngvs2022reviews.data\obj\Debug\net6.0\ref\ngvs2022reviews.data.dll
