@@ -1,0 +1,50 @@
+<div class="ui raised segment">
+  <h2 class="ui header">Demo Form: Sku</h2>
+  <!--<form #f="ngForm"
+        (ngSubmit)="onSubmit(f.value)"
+        class="ui form">
+    <div class="field">
+      <label for="skuInput">SKU</label>
+      <input type="text"
+             id="skuInput"
+             placeholder="SKU"
+             name="sku" ngModel>
+
+    </div>
+    <div class="field">
+      <label for="productInput">Product</label>
+      <input type="text"
+             id="productInput"
+             placeholder="Product"
+             name="productInput" ngModel>
+
+    </div>
+    <button type="submit" class="ui button">Submit</button>
+
+  </form>
+    -->
+  <h2 class="ui header">Demo Form: Sku with Builder</h2>
+  <form [formGroup]="myForm"
+        (ngSubmit)="onSubmit(myForm.value)"
+        class="ui form">
+    <div class="field">
+      <label for="skuInput">SKU</label>
+      <input type="text"
+             id="skuInput"
+             placeholder="SKU"
+             [formControl]="myForm.controls['sku'] | cast">
+      <span *ngIf="!sku.valid" class="ui error message">SKU is required</span>
+    </div>
+    <div class="field">
+      <label for="productInput">Product</label>
+      <input type="text"
+             id="productInput"
+             placeholder="Product"
+             [formControl]="myForm.controls['product'] | cast">
+      <span *ngIf="!product.valid" class="ui error message">Product name is required</span>
+    </div>
+    <button type="submit" class="ui button">Submit</button>
+
+  </form>
+
+</div>

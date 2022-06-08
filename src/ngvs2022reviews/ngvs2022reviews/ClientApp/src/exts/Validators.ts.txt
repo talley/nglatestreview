@@ -1,0 +1,12 @@
+import { StringMap } from "@angular/compiler/src/compiler_facade_interface";
+import { FormControl } from "@angular/forms";
+
+export class Validators {
+  static required(c: FormControl): StringMap<string, boolean> {
+    return Validators.isBlank(c.value) || c.value == "" ? { "required": true } : null;
+
+  }
+  static isBlank(value: any): boolean {
+    return value == null || value == "";
+  }
+}
